@@ -1,7 +1,7 @@
-file =  open("../data/lorem.txt")
+file =  open("../data/en-freq-10k.txt").read().split()
 
 
-# print(file.readline())
+# print(file)
 
 lorem_dict = {}
 print(lorem_dict)
@@ -50,3 +50,8 @@ for item in lorem_dict2:
     en_word_freq.append(item[0])
 
 print(en_word_freq)
+print(file)
+print(type(file))
+
+# for item in file:
+#     print(item)
