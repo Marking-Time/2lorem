@@ -46,12 +46,12 @@ print(type(lorem_dict2))
 
 en_word_freq = []
 
-for item in lorem_dict2:
+for item in file:
     en_word_freq.append(item[0])
 
 print(en_word_freq)
-print(file)
-print(type(file))
+# print(file)
+# print(type(file))
 
 # for item in file:
 #     print(item)
