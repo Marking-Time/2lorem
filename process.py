@@ -34,3 +34,8 @@ print(lorem_dict)
 print(len(lorem_dict))
 # print(type(file))
 
+def getValue(word):
+    return word[1]
+
+print(sorted(lorem_dict.items(), key=getValue))
+
