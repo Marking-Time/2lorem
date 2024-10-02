@@ -39,3 +39,14 @@ def getValue(word):
 
 print(sorted(lorem_dict.items(), key=getValue))
 
+lorem_dict2 = sorted(lorem_dict.items(), key=getValue)
+print(lorem_dict2)  
+
+print(type(lorem_dict2))
+
+en_word_freq = []
+
+for item in lorem_dict2:
+    en_word_freq.append(item[0])
+
+print(en_word_freq)
