@@ -1,6 +1,6 @@
 import re
 
-file =  open("../data/en-freq-10k.txt").read()
+file =  open("../data/en-freq-10k.txt")
 
 print(type(file))
 
@@ -59,15 +59,21 @@ print(type(lorem_dict2))
 
 eng_list = []
 
-print(file)
+# print(file)
 
-for line in file:
-    x = re.search("([A-Za-z])\w+",line)
-    eng_list.append(x)
-    print(x.span())
+# for line in file:
+#     x = re.search("([A-Za-z])\w+",line)
+#     eng_list.append(x)
+#     print(x.span())
 
-
-print(eng_list)
+    
+# print(eng_list)
 
 
 print(type(file))
+
+for line in file:
+    print(file.readline())
+    eng_list.append(file.readline())
+
+print(eng_list)
