@@ -1,3 +1,5 @@
+import re
+
 file =  open("../data/en-freq-10k.txt").read()
 
 print(type(file))
@@ -61,7 +63,7 @@ print(file)
 
 
 # for line in file:
-x = file.partition(",")
-print(x)
+# x = file.partition(",")
+# print(x)
 
 print(type(file))
