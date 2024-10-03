@@ -61,11 +61,13 @@ eng_list = []
 
 print(file)
 
+for line in file:
+    x = re.search("([A-Za-z])\w+",line)
+    eng_list.append(x)
+    print(x.span())
 
-# for line in file:
-x = re.search("([A-Za-z])\w+",file)
-eng_list.append(x)
+
 print(eng_list)
-print(x)
+
 
 print(type(file))
