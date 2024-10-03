@@ -57,13 +57,15 @@ print(type(lorem_dict2))
 # for item in file:
 #     print(item)
 
-
+eng_list = []
 
 print(file)
 
 
 # for line in file:
-# x = file.partition(",")
-# print(x)
+x = re.search("([A-Za-z])\w+",file)
+eng_list.append(x)
+print(eng_list)
+print(x)
 
 print(type(file))
