@@ -1,12 +1,11 @@
-file =  open("../data/en-freq-10k.txt").read().split()
+file =  open("../data/en-freq-10k.txt").read()
 
-
-# print(file)
+print(type(file))
 
 lorem_dict = {}
 print(lorem_dict)
 
-words = open("../data/lorem.txt").read().split()
+words = open("../data/lorem.txt").readline().split()
 
 for word in words:
     if word.endswith('.'):
@@ -43,15 +42,26 @@ lorem_dict2 = sorted(lorem_dict.items(), key=getValue)
 print(lorem_dict2)  
 
 print(type(lorem_dict2))
+#
+# en_word_freq = []
 
-en_word_freq = []
+# for item in file:
+#     en_word_freq.append(item[0])
 
-for item in file:
-    en_word_freq.append(item[0])
-
-print(en_word_freq)
+# print(en_word_freq)
 # print(file)
 # print(type(file))
 
 # for item in file:
 #     print(item)
+
+
+
+print(file)
+
+
+# for line in file:
+x = file.partition(",")
+print(x)
+
+print(type(file))
