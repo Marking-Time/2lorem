@@ -77,3 +77,12 @@ for line in file:
     eng_list.append(file.readline())
 
 print(eng_list)
+eng_word = []
+
+for line in eng_list:
+    print(line[0])
+    # if line[0]:
+    #     word = line[0]
+    #     eng_word.append(word)
+
+print(eng_word)
