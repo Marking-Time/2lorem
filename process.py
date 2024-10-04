@@ -113,6 +113,9 @@ for string in eng_words:
         print()
     else:   
         x = re.search(r"([A-Za-z])\w+",string)
-        eng_fin.append(x.group())
+        x = str(x)
+        # eng_fin.append(x)
+        x = x.split()
+        print(x)
 
 print(eng_fin)
