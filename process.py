@@ -71,7 +71,7 @@ eng_list = []
     
 # print(eng_list)
 
-
+print("================================")
 print(type(file))
 
 # ==================================================================================
@@ -90,3 +90,29 @@ print(type(file))
 #             eng_word.append(x.string)
 
 # print(eng_word)
+
+
+eng_words = []
+print(file)
+for line in file:
+    # print(file.readline())
+    x = file.readline()
+    eng_words.append(x)
+
+
+print("=================================== print eng_Words")
+
+exp = "([A-Za-z])\w+"
+
+print(eng_words)
+
+eng_fin = []
+
+for string in eng_words:
+    if type(string) == None:
+        print()
+    else:   
+        x = re.search(r"([A-Za-z])\w+",string)
+        eng_fin.append(x.group())
+
+print(eng_fin)
