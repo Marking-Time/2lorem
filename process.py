@@ -121,4 +121,5 @@ for string in eng_words:
 
 print(eng_fin)
 
+# <----------file type text wrapper object------------>
 print(type(file))
