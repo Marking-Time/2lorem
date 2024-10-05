@@ -118,4 +118,7 @@ for string in eng_words:
         x = x.split()
         print(x)
 
+
 print(eng_fin)
+
+print(type(file))
