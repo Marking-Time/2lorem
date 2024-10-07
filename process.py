@@ -46,7 +46,7 @@ print(lorem_dict)
 
 
 
-# eng_list = []
+eng_list = []
 
 
 print("=================================== print eng_Words")
