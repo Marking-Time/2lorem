@@ -31,6 +31,7 @@ for word in words:
 #    word = tuple(word)
 
     if word not in lorem_dict:
+        # word_to_tuple = tuple(word)
         lorem_dict.append(word)
 
 
@@ -77,11 +78,13 @@ print("                                           write lorem_list & fin_list to
 print("<----------------------------------------------------------------------------------------------->")
 
 for item in lorem_dict:
+    # item = tuple(item)
     l.write(item)
 
 l.close
 
 for item in fin_list:
+    item[0] = item[0] + ","
     e.write(item[0])
 
 e.close
