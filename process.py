@@ -84,7 +84,8 @@ for item in lorem_dict:
 l.close
 
 for item in fin_list:
-    item[0] = item[0] + ","
+    
+    item[0] = item[0] + ",\n"
     e.write(item[0])
 
 e.close
