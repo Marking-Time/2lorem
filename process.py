@@ -27,7 +27,8 @@ for word in words:
         word = word[:-1] 
     elif word.endswith('!'):
         word = word[:-1]
-    # print(word) #<===============================================
+   
+#    word = tuple(word)
 
     if word not in lorem_dict:
         lorem_dict.append(word)
@@ -67,3 +68,20 @@ l = open("lorem_list.txt", "w")
 
 
 e = open("eng_list.txt", "w")
+
+
+print("<----------------------------------------------------------------------------------------------->")
+
+print("                                           write lorem_list & fin_list to file")
+
+print("<----------------------------------------------------------------------------------------------->")
+
+for item in lorem_dict:
+    l.write(item)
+
+l.close
+
+for item in fin_list:
+    e.write(item[0])
+
+e.close
