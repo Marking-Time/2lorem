@@ -122,6 +122,8 @@ with open("eng2Lorem_dict.txt","w") as fool:
     fool.write(str(eng2Lorem_dict))
 
 
+def random_lorem():
+    berak
 
 
 
@@ -142,6 +144,6 @@ with open("eng2Lorem_dict.txt","w") as fool:
 
 # print(len(lorem_dict))   
 
-
-
+print("len lorem_dict")
+print(len(lorem_dict))
 
