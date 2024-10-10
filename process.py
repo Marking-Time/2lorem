@@ -90,3 +90,27 @@ print("<------------------------------------------------------------------------
 
 # e.close
 
+
+print("<----------------------------------------------------------------------------------------------->")
+
+print("                                           Create eng to lorem dict")
+
+print("<----------------------------------------------------------------------------------------------->")
+
+eng2Lorem_dict = {}
+n = 0
+
+# for item in fin_list:  <================= code i'm wirking on
+#     # print(item)
+#     item = item[0]
+#     eng2Lorem_dict[item] = lorem_dict[n]
+#     n+=1
+    
+print(eng2Lorem_dict)
+
+
+
+ 
+
+print(eng2Lorem_dict)
+
