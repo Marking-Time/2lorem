@@ -97,20 +97,46 @@ print("                                           Create eng to lorem dict")
 
 print("<----------------------------------------------------------------------------------------------->")
 
+# ====================================================
+#                 extend lorem_dict to create range for english list
+# ====================================================
+
+while len(lorem_dict) < 9764:   
+    lorem_dict.extend(lorem_dict)
+
+
+
 eng2Lorem_dict = {}
 n = 0
 
-# for item in fin_list:  <================= code i'm wirking on
-#     # print(item)
-#     item = item[0]
-#     eng2Lorem_dict[item] = lorem_dict[n]
-#     n+=1
+for item in fin_list:  #<================= code i'm wirking on
+    # print(item)
+    item = item[0]
+    eng2Lorem_dict[item] = lorem_dict[n]
+    n+=1
     
 print(eng2Lorem_dict)
+print(len(eng2Lorem_dict))
+
+
+
 
 
 
  
 
-print(eng2Lorem_dict)
+# print(eng2Lorem_dict)
+
+# ====================================================
+
+# print(lorem_dict)
+
+# print(len(lorem_dict))
+
+
+
+# print(len(lorem_dict))   
+
+
+
 
