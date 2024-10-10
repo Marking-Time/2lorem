@@ -65,10 +65,10 @@ print("CENTENTs")
 
 print(fin_list)
 
-l = open("lorem_list.txt", "w")
+# l = open("lorem_list.txt", "w")
 
 
-e = open("eng_list.txt", "w")
+# e = open("eng_list.txt", "w")
 
 
 print("<----------------------------------------------------------------------------------------------->")
@@ -77,15 +77,16 @@ print("                                           write lorem_list & fin_list to
 
 print("<----------------------------------------------------------------------------------------------->")
 
-for item in lorem_dict:
-    # item = tuple(item)
-    l.write(item)
+# for item in lorem_dict:
+#     # item = tuple(item)
+#     l.write(item)
 
-l.close
+# l.close
 
-for item in fin_list:
+# for item in fin_list:
     
-    item[0] = item[0] + ",\n"
-    e.write(item[0])
+#     item[0] = item[0] + ",\n"
+#     e.write(item[0])
 
-e.close
+# e.close
+
