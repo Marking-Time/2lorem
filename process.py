@@ -118,6 +118,11 @@ for item in fin_list:  #<================= code i'm wirking on
 print(eng2Lorem_dict)
 print(len(eng2Lorem_dict))
 
+with open("eng2Lorem_dict.txt","w") as fool:
+    fool.write(str(eng2Lorem_dict))
+
+
+
 
 
 
