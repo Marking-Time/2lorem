@@ -1,3 +1,6 @@
+import random
+
+
 fin_list = []
 
 with open("../data/en-freq-10k.txt", "r") as file:
@@ -122,8 +125,13 @@ with open("eng2Lorem_dict.txt","w") as fool:
     fool.write(str(eng2Lorem_dict))
 
 
+
+
 def random_lorem():
-    berak
+    n = random.randint(0,15040)
+    lorem = lorem_dict[n]
+    print(lorem)
+    return lorem
 
 
 
@@ -147,3 +155,8 @@ def random_lorem():
 print("len lorem_dict")
 print(len(lorem_dict))
 
+print("length of lorem_dict")
+print(len(lorem_dict))
+
+print("random lorem")
+random_lorem()
