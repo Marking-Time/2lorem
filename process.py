@@ -1,4 +1,5 @@
-import random
+import random 
+import json
 
 
 fin_list = []
@@ -120,6 +121,13 @@ for item in fin_list:  #<================= code i'm wirking on
     
 print(eng2Lorem_dict)
 print(len(eng2Lorem_dict))
+
+
+j_dump = json.dumps(eng2Lorem_dict)
+with open("eng_2_lorem.json", "w") as json_write:
+    json_write.write(j_dump)
+
+
 
 with open("eng2Lorem_dict.txt","w") as fool:
     fool.write(str(eng2Lorem_dict))
