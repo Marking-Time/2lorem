@@ -129,8 +129,8 @@ with open("eng_2_lorem.json", "w") as json_write:
 
 
 
-with open("eng2Lorem_dict.txt","w") as fool:
-    fool.write(str(eng2Lorem_dict))
+# with open("eng2Lorem_dict.txt","w") as fool:
+#     fool.write(str(eng2Lorem_dict))
 
 
 
