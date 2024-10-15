@@ -13,18 +13,18 @@ with open("eng_2_lorem.json","r") as eng2:
 print(eng2lorem)
 print(type(eng2lorem))
 
-# print(input)
+print(input)
 
-# english_word = input.split()
-# print(english_word)
+english_word = input.split()
+print(english_word)
 # # 
-# output_str = ""
+output_str = ""
 
-# for item in english_word:
-#     if item in eng2lorem:
-#         output_str = output_str + item
+for item in english_word:
+    if item in eng2lorem:
+        output_str = output_str + eng2lorem[item] + " "
     
-# print(output_str)
+print(output_str)
 
 # f = open("english_words.txt","x")
 
