@@ -1,5 +1,5 @@
-# file = open("lorem.txt")
-# print(file.read())
+from process import latinify
+# import latinify from process
 import json
 
 input = "1WASHINGTON 23 Sen.999 Dianne994321 Feinstein, D-Calif., a vocal advocate of gun control measures who was known for trying to find common  ground with Republicans during her three decades in the Senate, has died, her office confirmed on Friday She was  "
@@ -23,6 +23,8 @@ output_str = ""
 for item in english_word:
     if item in eng2lorem:
         output_str = output_str + eng2lorem[item] + " "
+    else:
+        output_str = output_str + latinify(item) + " "
     
 print(output_str)
 

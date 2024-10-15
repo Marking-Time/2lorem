@@ -141,12 +141,12 @@ def random_lorem():
     print(lorem)
     return lorem
 
-def latinify(english_word):
+def latinify(x_word):
     latin_endings = ["i", "isti", "it", "imus", "istis", "erunt","eram","eras","erat", "eramus", "eratis", "erant"]
-    n = random.randint(0,12)
-    latin = english_word + latin_endings[n]
+    n = random.randint(0,11)
+    latin = x_word + latin_endings[n]
 
-    print(latin)
+    # print(latin)
     return latin
 
 
