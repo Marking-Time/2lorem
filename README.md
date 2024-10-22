@@ -8,5 +8,5 @@
 - Added a blank eng_2_(anything) for the use in future translators
 - I might build a text_2_morse converter
     - reverse translator - morse to english
-    - SMC project to convert txt morse to light or sound based outputs and inputs
+    - SoC project to convert/revert txt morse to light or sound based outputs and inputs
 
