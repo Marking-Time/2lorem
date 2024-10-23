@@ -12,4 +12,5 @@
     - rough dreaft of translater english to Morse code is complete
         - still needs timing and/or
         - correct spacing as a stand in for timing
+        - also needs to escape characters not represented in Morse
 
