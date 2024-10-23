@@ -9,4 +9,7 @@
 - I might build a text_2_morse converter
     - reverse translator - morse to english
     - SoC project to convert/revert txt morse to light or sound based outputs and inputs
+    - rough dreaft of translater english to Morse code is complete
+        - still needs timing and/or
+        - correct spacing as a stand in for timing
 
