@@ -1,16 +1,13 @@
 # 2lorem
-### This repo contains code I used to practice. Its primary goal was to make lorem ipsum translatablel into english.
+### This repo contains code I used to practice. Its primary goal was to make lorem ipsum translatable into english.
 
 **Status**
-- Code runs and yields expected results.
-- Need to rework the english to lorem dictionary built in process.py to complete the project.
-- I might do the above and fashion this into an API for use in the portfolio repo.
+- Code runs and yields expected results for:
+	- toLorem.py - converts text to the made up Lorem Ipsum language
+	- toMorse.py - converts text to printed Morse Code
 - Added a blank eng_2_(anything) for the use in future translators
-- I might build a text_2_morse converter
     - reverse translator - morse to english
     - SoC project to convert/revert txt morse to light or sound based outputs and inputs
-    - rough dreaft of translater english to Morse code is complete
-        - still needs timing and/or
-        - correct spacing as a stand in for timing
-        - also needs to escape characters not represented in Morse
+- eng_list.txt and lorem_list.txt are precursor files used by the process.py code to create the .json files.   
+
 
