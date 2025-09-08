@@ -1,5 +1,5 @@
 # 2lorem
-### This repo contains code I used to practice. Its primary goal was to make lorem ipsum translatable into english.
+### This repo contains code I used to practice. Its primary goal was to make lorem ipsum translatable into english. The .py files accept input from the command line and do the conversion.
 
 **Status**
 - Code runs and yields expected results for:
