@@ -39,23 +39,23 @@ for word in words:
         lorem_dict.append(word)
 
 
-
+'''
 print("<----------------------------------------------------------------------------------------------->")
 
 print("                                           LOREM")
 
 print("<----------------------------------------------------------------------------------------------->")
 # <----------------------------------------------------------------------------------------------->
+'''
 
-
-print(lorem_dict)
+#print(lorem_dict)
 
 
 
 eng_list = []
 
 
-print("=================================== print eng_Words")
+#print("=================================== print eng_Words")
 
 # exp = "([A-Za-z])\w+"
 
@@ -64,10 +64,10 @@ print("=================================== print eng_Words")
 eng_fin = []
 
 
-print("CONTENTs")
+#print("CONTENTs")
 
 
-print(fin_list)
+#print(fin_list)
 
 # l = open("lorem_list.txt", "w")
 
@@ -94,7 +94,7 @@ print(fin_list)
 
 # e.close
 
-
+'''
 print("<------------------------------------------------------------------------------------------->")
 
 print("                                           Create eng to lorem dict")
@@ -104,6 +104,7 @@ print("<------------------------------------------------------------------------
 # ====================================================
 #                 extend lorem_dict to create range for english list
 # ====================================================
+'''
 
 while len(lorem_dict) < 9764:   
     lorem_dict.extend(lorem_dict)
@@ -119,8 +120,8 @@ for item in fin_list:  #<================= code i'm wirking on
     eng2Lorem_dict[item] = lorem_dict[n]
     n+=1
     
-print(eng2Lorem_dict)
-print(len(eng2Lorem_dict))
+#print(eng2Lorem_dict)
+#print(len(eng2Lorem_dict))
 
 
 j_dump = json.dumps(eng2Lorem_dict)
@@ -142,8 +143,8 @@ def random_lorem():
     return lorem
 
 def latinify(x_word):
-    latin_endings = ["i", "isti", "it", "imus", "istis", "erunt","eram","eras","erat", "eramus", "eratis", "erant"]
-    n = random.randint(0,11)
+    latin_endings = ["i", "isti", "it", "imus", "istis", "erunt","eram","eras","erat", "eramus", "eratis", "erant","ae","am","arum","is","as","us","o","um","em","e","orum","a","ibus","es","ium","jbus","ia","ui","uum","ei","erum","ebus"]
+    n = random.randint(0,33)
     latin = x_word + latin_endings[n]
 
     # print(latin)
@@ -174,8 +175,8 @@ def latinify(x_word):
 # print("length of lorem_dict")
 # print(len(lorem_dict))
 
-print("random lorem")
-random_lorem()
+#print("random lorem")
+##random_lorem()
 
-print("latinify")
-latinify("mark")
+#print("latinify")
+#latinify("mark")
